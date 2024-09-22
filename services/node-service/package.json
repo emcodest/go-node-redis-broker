@@ -1,0 +1,19 @@
+{
+  "name": "node-service",
+  "version": "1.0.0",
+  "description": "a node js app to add and process job",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emcodest/go-node-redis-broker/node-service"
+  },
+  "author": "Emcode",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^4.16.3",
+    "redis": "^4.7.0"
+  }
+}
